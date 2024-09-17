@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="thoitrang.css">
+    <Script src="thoitrang.js"></Script>
+</head>
+<body>
+    <form id="productForm">
+        <h1>Thời Trang</h1>
+        <div class="form-row">
+            <p>Image Product: </p><input type="file" id="img_product" placeholder="Choose image">
+        </div>
+        <div class="form-row">
+            <p>Name: </p><input type="text" id="name_product" placeholder="...">
+        </div>
+        <div class="form-row">
+            <p>New Price: </p><input type="text" id="new_price" placeholder="...">
+        </div>
+        <div class="form-row">
+            <p>Old Price: </p><input type="text" id="old_price" placeholder="...">
+        </div>
+        <div class="form-row">
+            <p>Type: </p><input type="text" id="type" placeholder="...">
+        </div>
+        <div class="form-row">
+            <p>Code: </p><input type="text" id="code" placeholder="...">
+        </div>
+    
+        <div class="button-group">
+            <button type="button" onclick="addProduct()">Add</button>
+        </div>
+    </form>
+    
+    
+    <div class="product-list" id="productList"></div>
+</body>
+</html>
